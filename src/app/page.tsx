@@ -1,7 +1,13 @@
-import React from "react";
+import Featured from '@/components/Featured'
+import Offer from '@/components/Offer'
+import Slider from '@/components/Slider'
 
-const Home = () => {
-  return <div>page</div>;
-};
-
-export default Home;
+export default function Home() {
+  return (
+    <main>
+      <Slider/>
+      <Featured/>
+      <Offer/>
+    </main>
+  )
+}

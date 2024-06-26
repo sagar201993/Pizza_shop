@@ -37,7 +37,7 @@ const Menu = () => {
           onClick={() => setOpen(false)}
         />
       )} */}
-
+      
       {/* SHORTCUT */}
       <Image
         src={open ? "/close.png" : "/open.png"}
